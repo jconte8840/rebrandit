@@ -60,7 +60,14 @@ header.main_nav{
 	text-align: center;
 	font-size: 2em;
 }
-
+a.nav:hover{
+	background-color: blue;
+	
+}
+a.nav{
+	border: 0 solid black;
+	padding: .6%;
+}
 
 
 /* Images & Media
