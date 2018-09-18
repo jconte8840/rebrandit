@@ -48,9 +48,6 @@ body{
 h2, p.footer{
 	text-align: center;
 }
-li{
-	background-color:
-}
 /* Header & Navigation
 ______________________________________*/
 
@@ -69,6 +66,9 @@ a.nav{
 	padding: .6%;
 }
 
+nav{
+	border-radius: 15px;
+}
 
 /* Images & Media
 ______________________________________*/
