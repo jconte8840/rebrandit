@@ -10,7 +10,10 @@
 
 /* General Content
 ______________________________________*/
-
+.logo {
+	width: 70%;
+	margin-top: 1%;
+}
 .main{padding-top:3%;}
 .row{padding: 1% 0;}
 .blue{background-color: #6666;}
