@@ -1,0 +1,197 @@
+/* Table of Contents
+ _____________________________________
+ -General Contents
+ -Typography
+ -Header & Navigation
+ -Images & Media
+ -Footer
+ -Media Queries
+ _____________________________________*/
+
+/* General Content
+______________________________________*/
+
+
+.services_l{
+	list-style-type: none; 
+	text-align: center;
+}
+
+.services_r{
+	list-style-type: none; 
+	text-align: center;
+}
+
+.logo {
+	width: 100%;
+	margin-top: 1%;
+}
+.main{padding-top:3%;}
+.row{padding: 1% 0;}
+.blue{background-color: #6666;}
+.gallery{
+	padding-top: 1%;
+}
+.contact {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box; }
+a:link {
+	color: red;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+a:active {
+	text-decoration: none;
+	color: rgba(0,0,255,1);
+}
+/* Typography
+______________________________________*/
+
+
+h2, p.footer{
+	text-align: center;
+}
+/* Header & Navigation
+______________________________________*/
+
+header.main_nav{
+	padding: 1% 0;
+	display: block;
+	text-align: center;
+	font-size: 2em;
+	background-color: #2E2EFF;
+}
+a.nav:hover{
+	background-color: red;
+	
+}
+a.nav{
+	border: 0 solid black;
+	padding: .6%;
+}
+
+/* Images & Media
+______________________________________*/
+
+img{
+	
+	width: 100%;
+	border-radius: 20px;
+}
+img.logo{
+	border-radius: 0;
+}
+img:hover{ opacity:0.8;}
+
+/* Footer
+______________________________________*/ 
+
+ul.social{
+	display: block;
+	margin: 5% 0;
+	list-style-type: none;
+	text-align: center;
+}
+ul.social li{
+	font-size: 3em;
+	display: inline;
+	padding: 0 2%;
+}
+ul.social li a{
+	color: #666;
+}
+ul.social li.facebook a:hover{color: rgb(59,89,152);}
+ul.social li.twitter a:hover{color: rgb(0,172,273);}
+ul.social li.instagram a:hover{color: rgb(81,127,273);}
+ul.social li.youtube a:hover{color: rgb(187,0,0);}
+ul.social li.flickr a:hover{color: rgb(255,0,132);}
+ul.social li.linkedin a:hover{color: rgb(0,123,182);}
+
+p.copyright{
+	text-align: center;
+	color: #666;
+	font-size: 1em;
+} 
+footer{
+	background-color:#E6E6E6;
+}
+	
+ 
+ /* Media Queries
+______________________________________*/
+
+@media (max-width: 479px) {
+	.logo a{font-size: 2em;}
+	.main{padding-top:15%;}
+	.portfolio img{margin-bottom: 10%;}
+	img.avatar{margin-top: 15%;}
+	h2.bio{font-size: 2.5em;}
+	p.bio{font-size:1.25em; color: #3f7f7c;}
+	ul.social li a{font-size: .75em;}
+}
+/*
+@media (min-width: 400px){
+	.services_l{
+		list-style-type: none; 
+		text-align: center;
+		padding-left: 0;
+		margin-right: 0;
+	}
+	.services_r{
+		list-style-type: none; 
+		text-align: center;
+		padding-right: 0;
+		margin-left: 0;
+	}
+}
+*/
+@media (min-width: 550px) {
+	.services_l{
+		padding-left: 40%;
+	}
+	.services_r{
+		padding-right: 40%;
+	}
+}
+
+@media (min-width: 750px){
+	.services_l{
+		padding-left: 60%;
+	}
+	.services_r{
+		padding-right: 60%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.services_l{
+		padding-left: 70%;
+		margin-right: -7%;
+	}
+	.services_r{
+		padding-right: 70%;
+		margin-left: -7%;
+	}
+}
+
+@media (min-width: 1200px) {
+	.services_l{
+		padding-left: 80%;
+		margin-right: -5%;
+	}
+	.services_r{
+		padding-right: 80%;
+		margin-left: -5%;
+	}
+}
