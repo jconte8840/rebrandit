@@ -13,18 +13,19 @@ ______________________________________*/
 
 
 .services_l{
-	list-style-type: none; 
-	text-align: center;
+	/*list-style-type: none;*/
+	text-align: left;
 }
 
 .services_r{
-	list-style-type: none; 
-	text-align: center;
+	/*list-style-type: none;*/
+	text-align: left;
 }
 
 .logo {
 	width: 100%;
-	margin-top: 1%;
+	margin-top: 0;
+	margin-left: -0.6%;
 }
 .main{padding-top:3%;}
 .row{padding: 1% 0;}
@@ -66,26 +67,42 @@ h2, p.footer{
 ______________________________________*/
 
 header.main_nav{
-	padding: 1% 0;
+	height: 38px;
+	padding: 0.1% 0;
+	margin-left: -20px;
 	display: block;
 	text-align: center;
-	font-size: 2em;
-	background-color: #2E2EFF;
-}
-a.nav:hover{
+	font-size: 1.6em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	letter-spacing: 4px;
 	background-color: red;
-	
+}
+
+a.nav:hover{
+	background-color: blue;
+
+
 }
 a.nav{
-	border: 0 solid black;
-	padding: .6%;
+	border-right: 2px solid white;
+	/* margin: -0.6%; */
+	margin-left: -1.1%;
+	padding-top: 2%;
+	padding-bottom: 0.6%;
+	padding-left: 3%;
+	padding-right: 3%;
+	/* background: black; */
+	color: white;
+	/* position: relative; */
+	/* top: -10px; */
 }
 
 /* Images & Media
 ______________________________________*/
 
 img{
-	
+
 	width: 100%;
 	border-radius: 20px;
 }
@@ -94,8 +111,12 @@ img.logo{
 }
 img:hover{ opacity:0.8;}
 
+.image-container{
+	margin-left: -5%;
+}
+
 /* Footer
-______________________________________*/ 
+______________________________________*/
 
 ul.social{
 	display: block;
@@ -122,12 +143,31 @@ p.copyright{
 	text-align: center;
 	color: #666;
 	font-size: 1em;
-} 
+}
 footer{
 	background-color:#E6E6E6;
 }
-	
- 
+
+/* Services Section On Home Page
+______________________________________*/
+.services{
+	margin-left: -15px;
+}
+.lists{
+	font-family: 'Roboto', sans-serif;
+	font-size: 28px;
+
+}
+.leftlist{
+	position: relative;
+	left: 85px;
+}
+.rightlist{
+	position: relative;
+	left: 85px;
+}
+
+
  /* Media Queries
 ______________________________________*/
 
@@ -143,13 +183,13 @@ ______________________________________*/
 /*
 @media (min-width: 400px){
 	.services_l{
-		list-style-type: none; 
+		list-style-type: none;
 		text-align: center;
 		padding-left: 0;
 		margin-right: 0;
 	}
 	.services_r{
-		list-style-type: none; 
+		list-style-type: none;
 		text-align: center;
 		padding-right: 0;
 		margin-left: 0;
@@ -167,25 +207,25 @@ ______________________________________*/
 
 @media (min-width: 750px){
 	.services_l{
-		padding-left: 60%;
+		/*padding-left: 60%;*/
 	}
 	.services_r{
-		padding-right: 60%;
+		/*padding-right: 60%;*/
 	}
 }
 
 @media (min-width: 1000px) {
 	.services_l{
-		padding-left: 70%;
+		/*padding-left: 70%;*/
 		margin-right: -7%;
 	}
 	.services_r{
-		padding-right: 70%;
+		/*padding-right: 70%;*/
 		margin-left: -7%;
 	}
 }
 
-@media (min-width: 1200px) {
+/*@media (min-width: 1200px) {
 	.services_l{
 		padding-left: 80%;
 		margin-right: -5%;
@@ -194,4 +234,4 @@ ______________________________________*/
 		padding-right: 80%;
 		margin-left: -5%;
 	}
-}
+}*/
