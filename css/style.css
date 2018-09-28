@@ -170,6 +170,17 @@ ______________________________________*/
 	left: 85px;
 }
 
+/*About Page Styles
+_____________________________________*/
+.about-text{
+	border: 3px solid red;
+	height: 400px
+}
+
+.move{
+	position: relative;
+}
+
 
  /* Media Queries
 ______________________________________*/
