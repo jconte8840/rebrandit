@@ -30,7 +30,7 @@ color: blue;
 	margin-left: -0.6%;
 }
 .main{padding-top:3%;}
-.row{padding: 1% 0;}
+.row{padding: 4.35% 1%;}
 .blue{background-color: #6666;}
 .gallery{
 	padding-top: 1%;
@@ -52,7 +52,7 @@ a:visited {
 }
 a:hover {
 	text-decoration: none;
-	color: white;
+	color: blue;
 }
 a:active {
 	text-decoration: none;
@@ -151,6 +151,7 @@ footer{
     text-align: center
 }
 
+
 /* Services Section On Home Page
 ______________________________________*/
 .services{
@@ -175,6 +176,14 @@ _____________________________________*/
 .about-text{
 	border: 3px solid red;
 	height: 400px
+}
+.image-space{
+    position: relative;
+    padding: 40px;
+    margin: auto;    
+    float: left;
+    display: block;
+    vertical-align: middle
 }
 
 .move{
