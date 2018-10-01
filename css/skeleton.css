@@ -63,9 +63,9 @@
   .one.columns                    { width: 4.66666666667%; }
   .two.columns                    { width: 13.3333333333%; }
   .three.columns                  { width: 22%;            }
-  .four.columns                   { width: 30.6666666667%; }
+   .four.columns                  { width: 30.6666666667%; }
   .five.columns                   { width: 39.3333333333%; }
-  .six.columns                    { width: 48%;            }
+  .six.columns                    { width: 48.0%;            }
   .seven.columns                  { width: 56.6666666667%; }
   .eight.columns                  { width: 65.3333333333%; }
   .nine.columns                   { width: 74.0%;          }
@@ -229,12 +229,14 @@ input[type="password"],
 textarea,
 select {
   height: 38px;
-  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  padding: 2px 85px; /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
   border: 1px solid #D1D1D1;
   border-radius: 4px;
   box-shadow: none;
-  box-sizing: border-box; }
+  box-sizing: border-box; 
+  text-align: center
+}
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
 input[type="number"],
@@ -384,7 +386,8 @@ hr {
   content: "";
   display: table;
   clear: both; }
-
+    
+    
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -410,3 +413,4 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+

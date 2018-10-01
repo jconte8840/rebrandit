@@ -11,7 +11,10 @@
 /* General Content
 ______________________________________*/
 
-
+h4{
+	font-family: 'Roboto', sans-serif;
+	color: blue;
+}
 .services_l{
 	/*list-style-type: none;*/
 	text-align: left;
@@ -27,12 +30,15 @@ ______________________________________*/
 	margin-top: 0;
 	margin-left: -0.6%;
 }
-.main{padding-top:3%;}
-.row{padding: 1% 0;}
+
+.main{padding-top: 3%;}
+
+.row{padding: 2% 1%;}
+
 .blue{background-color: #6666;}
-.gallery{
-	padding-top: 1%;
-}
+
+.gallery{padding-top: 1%;}
+
 .contact {
   position: relative;
   width: 100%;
@@ -50,7 +56,7 @@ a:visited {
 }
 a:hover {
 	text-decoration: none;
-	color: white;
+	color: blue;
 }
 a:active {
 	text-decoration: none;
@@ -69,7 +75,7 @@ ______________________________________*/
 header.main_nav{
 	height: 38px;
 	padding: 0.1% 0;
-	margin-left: -20px;
+	margin-left: -18px;
 	display: block;
 	text-align: center;
 	font-size: 1.6em;
@@ -89,7 +95,7 @@ a.nav{
 	/* margin: -0.6%; */
 	margin-left: -1.1%;
 	padding-top: 2%;
-	padding-bottom: 0.6%;
+	padding-bottom: 0.61%;
 	padding-left: 3%;
 	padding-right: 3%;
 	/* background: black; */
@@ -102,7 +108,6 @@ a.nav{
 ______________________________________*/
 
 img{
-
 	width: 100%;
 	border-radius: 20px;
 }
@@ -146,10 +151,15 @@ p.copyright{
 }
 footer{
 	background-color:#E6E6E6;
+    text-align: center
 }
+
 
 /* Services Section On Home Page
 ______________________________________*/
+.align-services{
+	margin-left: 16px;
+}
 .services{
 	margin-left: -15px;
 }
@@ -160,12 +170,44 @@ ______________________________________*/
 }
 .leftlist{
 	position: relative;
-	left: 85px;
+	left: 49px;
 }
 .rightlist{
 	position: relative;
-	left: 85px;
+	left: 105px;
 }
+
+/*Home page below services section
+_____________________________________*/
+.main-display{
+	margin-left: -2.1em;
+	width: 101.8%;
+}
+
+/*About Page Styles
+_____________________________________*/
+.about-align{
+	height: 400px;
+}
+.about-text{
+	font-size: 18px;
+	letter-spacing: 1px;
+	height: 690px;
+}
+.about-text-small{
+	font-size: 18px;
+	letter-spacing: 1px;
+	height: 135px;
+}
+.image-space{
+  position: relative;
+  padding: 40px;
+  margin: auto;
+  float: left;
+  display: block;
+  vertical-align: middle;
+}
+
 
 
  /* Media Queries
@@ -235,3 +277,7 @@ ______________________________________*/
 		margin-left: -5%;
 	}
 }*/
+
+box-space{
+color:red
+}
