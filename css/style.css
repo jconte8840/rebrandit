@@ -92,7 +92,7 @@ a.nav:hover{
 
 }
 a.nav{
-	
+
 	/* margin: -0.6%; */
 	margin-left: -1.1%;
 	padding-top: 2%;
@@ -160,25 +160,26 @@ p.copyright{
 }
 footer{
 	background-color:#E6E6E6;
- text-align: center;
+ 	text-align: center;
 	font-size: 18px;
 	letter-spacing: 1px;
+	margin-left: 6%;
 }
 
 #footer-container{
 margin-top: 18em
 }
 
-/* Button 
+/* Button
 ______________________________________*/
-#btn-container{ 
+#btn-container{
 		/*margin-right: 12px;*/
 	position: absolute;
 	left: 27em;
 	margin-top: -7%;
-	 
+
 }
-	
+
 .btn-text{
 	text-align: center;
 
@@ -201,7 +202,8 @@ ______________________________________*/
 }
 .leftlist{
 	position: relative;
-	left: 49px;
+	/*left: 49px;*/
+	margin-left: 5%;
 }
 .rightlist{
 	position: relative;
@@ -211,8 +213,8 @@ ______________________________________*/
 /*Home page below services section
 _____________________________________*/
 .main-display{
-	margin-left: -2.1em;
-	width: 101.8%;
+	margin-left: 0em;
+	width: 96.8%;
 }
 
 /*About Page Styles
