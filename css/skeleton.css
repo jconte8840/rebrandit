@@ -413,8 +413,7 @@ hr {
 .u-cf {
   content: "";
   display: table;
-  clear: both;
-}
+  clear: both; }
 
 
 
