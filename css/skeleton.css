@@ -34,7 +34,9 @@
   max-width: 1800px;
   margin: 0 auto;
   padding: 0 20px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border: none;
+}
 .column,
 .columns {
   width: 100%;
@@ -63,18 +65,18 @@
   .one.columns                    { width: 4.66666666667%; }
   .two.columns                    { width: 13.3333333333%; }
   .three.columns                  { width: 22%;            }
-  .four.columns                   { width: 30.6666666667%; }
+   .four.columns                  { width: 30.6666666667%; }
   .five.columns                   { width: 39.3333333333%; }
-  .six.columns                    { width: 48.0%;          }
+  .six.columns                    { width: 48.0%;            }
   .seven.columns                  { width: 56.6666666667%; }
   .eight.columns                  { width: 65.3333333333%; }
   .nine.columns                   { width: 74.0%;          }
   .ten.columns                    { width: 82.6666666667%; }
   .eleven.columns                 { width: 91.3333333333%; }
-  .twelve.columns                 { width: 100%; margin-left: 0;}
+  .twelve.columns                 { width: 100%; margin-left: 0; }
 
-  .one-third.column               { width: 30.6666666667%;}
-  .two-thirds.column              { width: 65.3333333333%;}
+  .one-third.column               { width: 30.6666666667%; }
+  .two-thirds.column              { width: 65.3333333333%; }
 
   .one-half.column                { width: 48%; }
 
@@ -161,6 +163,15 @@ a {
   color: #1EAEDB; }
 a:hover {
   color: #0FA0CE; }
+input.light-field{
+    border: 100px solid yellow;
+    height: 100px;
+	box-sizing: border-box;
+	padding: 8px;
+	border-width: 8px;
+	background-color: purple;
+}
+
 
 
 /* Buttons
@@ -169,24 +180,32 @@ a:hover {
 button,
 input[type="submit"],
 input[type="reset"],
+
+
+
 input[type="button"] {
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #555;
-  text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #bbb;
-  cursor: pointer;
-  box-sizing: border-box; }
+	display: inline-block;
+	height: 48px;
+	width: 110px;
+	padding: 6px;
+	color: #555;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: transparent;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+
+
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -235,13 +254,13 @@ input[type="password"],
 textarea,
 select {
   height: 38px;
-  padding: 2px 85px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  padding: 6px 100px; /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
   border: 1px solid #D1D1D1;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box;
-  text-align: center
+
 }
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
@@ -272,13 +291,15 @@ select:focus {
   outline: 0; }
 label,
 legend {
+	 font-size: 24px;
   display: block;
   margin-bottom: .5rem;
-  font-weight: 600; }
+  font-weight: 600;
+}
 fieldset {
   padding: 0;
   border-width: 0; }
-input[type="checkbox"],
+input[type="checkleftbox"],
 input[type="radio"] {
   display: inline; }
 label > .label-body {
@@ -379,19 +400,21 @@ hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
   border-width: 0;
-  border-top: 1px solid #E1E1E1; }
+  border-top: 1px solid #EF1E1E1; }
 
 
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Self Clearing Goodness */
-.container:after,
-.row:after,
+.container: after;
+
+.row: after;
 .u-cf {
   content: "";
   display: table;
-  clear: both; }
+  clear: both;
+}
 
 
 
