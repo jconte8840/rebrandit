@@ -34,7 +34,9 @@
   max-width: 1800px;
   margin: 0 auto;
   padding: 0 20px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  border: none;
+}
 .column,
 .columns {
   width: 100%;
@@ -119,7 +121,13 @@
 html is set to 62.5% so that all the REM measurements throughout Skeleton
 are based on 10px sizing. So basically 1.5rem = 15px :) */
 html {
-  font-size: 60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%60%  color: #222; }
+  font-size: 62.5%; }
+body {
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  line-height: 1.6;
+  font-weight: 400;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #222; }
 
 
 /* Typography
@@ -155,6 +163,15 @@ a {
   color: #1EAEDB; }
 a:hover {
   color: #0FA0CE; }
+input.light-field{
+    border: 100px solid yellow;
+    height: 100px;
+	box-sizing: border-box;
+	padding: 8px;
+	border-width: 8px;
+	background-color: purple;
+}
+
 
 
 /* Buttons
@@ -163,24 +180,32 @@ a:hover {
 button,
 input[type="submit"],
 input[type="reset"],
+
+
+
 input[type="button"] {
-  display: inline-block;
-  height: 38px;
-  padding: 0 30px;
-  color: #555;
-  text-align: center;
-  font-size: 11px;
-  font-weight: 600;
-  line-height: 38px;
-  letter-spacing: .1rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  white-space: nowrap;
-  background-color: transparent;
-  border-radius: 4px;
-  border: 1px solid #bbb;
-  cursor: pointer;
-  box-sizing: border-box; }
+	display: inline-block;
+	height: 48px;
+	width: 110px;
+	padding: 6px;
+	color: #555;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 38px;
+	letter-spacing: .1rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+	background-color: transparent;
+	border-radius: 4px;
+	border: 1px solid #bbb;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+
+
 .button:hover,
 button:hover,
 input[type="submit"]:hover,
@@ -202,8 +227,8 @@ input[type="button"].button-primary {
   color: #FFF;
   background-color: #33C3F0;
   border-color: #33C3F0; }
-.button.button-primary:hover,
-button.button-primary:hover,
+.button.button-primary:
+button.button-primary:
 input[type="submit"].button-primary:hover,
 input[type="reset"].button-primary:hover,
 input[type="button"].button-primary:hover,
@@ -229,13 +254,13 @@ input[type="password"],
 textarea,
 select {
   height: 38px;
-  padding: 2px 85px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  padding: 6px 100px; /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
   border: 1px solid #D1D1D1;
   border-radius: 4px;
   box-shadow: none;
-  box-sizing: border-box; 
-  text-align: center
+  box-sizing: border-box;
+
 }
 /* Removes awkward default styles on some inputs for iOS */
 input[type="email"],
@@ -266,13 +291,15 @@ select:focus {
   outline: 0; }
 label,
 legend {
+	 font-size: 24px;
   display: block;
   margin-bottom: .5rem;
-  font-weight: 600; }
+  font-weight: 600;
+}
 fieldset {
   padding: 0;
   border-width: 0; }
-input[type="checkbox"],
+input[type="checkleftbox"],
 input[type="radio"] {
   display: inline; }
 label > .label-body {
@@ -373,21 +400,22 @@ hr {
   margin-top: 3rem;
   margin-bottom: 3.5rem;
   border-width: 0;
-  border-top: 1px solid #E1E1E1; }
+  border-top: 1px solid #EF1E1E1; }
 
 
 /* Clearing
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 /* Self Clearing Goodness */
-.container:after,
-.row:after,
+.container: after;
+
+.row: after;
 .u-cf {
   content: "";
   display: table;
   clear: both; }
-    
-    
+
+
 
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -413,4 +441,3 @@ there.
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
-
