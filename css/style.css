@@ -77,30 +77,38 @@ ______________________________________*/
 header.main_nav{
 	height: 40px;
 	padding: 0.1% 0;
-	margin-left: -18px;
+	margin-left: 44%;
+	margin-bottom: 3%;
+	margin-top: 8px;
 	display: block;
 	text-align: center;
-	font-size: 1.6em;
+	font-size: 1.45em;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
 	letter-spacing: 4px;
-	background-color: red;
+	text-transform: uppercase;
+	/* background-color: red; */
 }
 
+<<<<<<< HEAD
 
 
+=======
+a.nav:hover{
+	color: blue;
+>>>>>>> 556e341d2267cb4ef3a2da6659656c7b4cb5aa2c
 
 }
+
 a.nav{
-	
-	/* margin: -0.6%; */
-	margin-left: -1.1%;
+	margin: -0.6%; */
+	/* margin-left: 0%; */
 	padding-top: 2%;
 	padding-bottom: 0.61%;
-	padding-left: 3%;
+	padding-left: 0%;
 	padding-right: 3%;
 	/* background: black; */
-	color: white;
+	color: black;
 	/* position: relative; */
 	/* top: -10px; */
 }
@@ -160,25 +168,26 @@ p.copyright{
 }
 footer{
 	background-color:#E6E6E6;
- text-align: center;
+ 	text-align: center;
 	font-size: 18px;
 	letter-spacing: 1px;
+	margin-left: 6%;
 }
 
 #footer-container{
 margin-top: 18em
 }
 
-/* Button 
+/* Button
 ______________________________________*/
-#btn-container{ 
+#btn-container{
 		/*margin-right: 12px;*/
 	position: absolute;
 	left: 27em;
 	margin-top: -7%;
-	 
+
 }
-	
+
 .btn-text{
 	text-align: center;
 
@@ -201,7 +210,8 @@ ______________________________________*/
 }
 .leftlist{
 	position: relative;
-	left: 49px;
+	/*left: 49px;*/
+	margin-left: 5%;
 }
 .rightlist{
 	position: relative;
@@ -211,8 +221,8 @@ ______________________________________*/
 /*Home page below services section
 _____________________________________*/
 .main-display{
-	margin-left: -2.1em;
-	width: 101.8%;
+	margin-left: 0em;
+	width: 96.8%;
 }
 
 /*About Page Styles
