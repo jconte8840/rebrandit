@@ -76,31 +76,33 @@ ______________________________________*/
 header.main_nav{
 	height: 40px;
 	padding: 0.1% 0;
-	margin-left: -18px;
+	margin-left: 44%;
+	margin-bottom: 3%;
+	margin-top: 8px;
 	display: block;
 	text-align: center;
-	font-size: 1.6em;
+	font-size: 1.45em;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
 	letter-spacing: 4px;
-	background-color: red;
+	text-transform: uppercase;
+	/* background-color: red; */
 }
 
 a.nav:hover{
-	background-color: blue;
-
+	color: blue;
 
 }
-a.nav{
 
-	/* margin: -0.6%; */
-	margin-left: -1.1%;
+a.nav{
+	margin: -0.6%; */
+	/* margin-left: 0%; */
 	padding-top: 2%;
 	padding-bottom: 0.61%;
-	padding-left: 3%;
+	padding-left: 0%;
 	padding-right: 3%;
 	/* background: black; */
-	color: white;
+	color: black;
 	/* position: relative; */
 	/* top: -10px; */
 }
