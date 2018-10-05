@@ -77,8 +77,8 @@ ______________________________________*/
 header.main_nav{
 	height: 40px;
 	padding: 0.1% 0;
-	margin-left: 44%;
-	margin-bottom: 3%;
+	margin-left: 0%;
+	margin-bottom: 1%;
 	margin-top: 8px;
 	display: block;
 	text-align: center;
@@ -87,6 +87,7 @@ header.main_nav{
 	font-weight: 600;
 	letter-spacing: 4px;
 	text-transform: uppercase;
+	word-spacing: 0.8em
 	/* background-color: red; */
 }
 
