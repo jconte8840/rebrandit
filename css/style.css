@@ -50,18 +50,19 @@ h4{
 a:link {
 	color: red;
 	text-decoration: none;
+	
 }
 a:visited {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 a:hover {
 	text-decoration: none;
-	color: blue;
+	color: white;
 }
 a:active {
 	text-decoration: none;
-	color: rgba(0,0,255,1);
+	color: white;
 }
 /* Typography
 ______________________________________*/
@@ -86,8 +87,7 @@ header.main_nav{
 	background-color: red;
 }
 
-a.nav:hover{
-	background-color: blue;
+
 
 
 }
