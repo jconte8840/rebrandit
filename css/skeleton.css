@@ -68,7 +68,7 @@
    .four.columns                  { width: 30.6666666667%; }
   .five.columns                   { width: 39.3333333333%; }
   .six.columns                    { width: 48.0%;            }
-  .seven.columns                  { width: 56.6666666667%; }
+  .seven.columns                  { width: 48.6666666667%; }
   .eight.columns                  { width: 65.3333333333%; }
   .nine.columns                   { width: 74.0%;          }
   .ten.columns                    { width: 82.6666666667%; }
@@ -186,7 +186,7 @@ input[type="reset"],
 input[type="button"] {
 	display: inline-block;
 	height: 48px;
-	width: 110px;
+	width: 105px;
 	padding: 6px;
 	color: #555;
 	text-align: center;
@@ -260,6 +260,8 @@ select {
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box;
+  text-align: left;
+
 
 }
 /* Removes awkward default styles on some inputs for iOS */
@@ -291,8 +293,8 @@ select:focus {
   outline: 0; }
 label,
 legend {
-	 font-size: 24px;
-  display: block;
+	font-size: 24px;
+  display: inline-block;
   margin-bottom: .5rem;
   font-weight: 600;
 }
@@ -310,8 +312,7 @@ label > .label-body {
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-ul {
-  /*list-style: circle inside; }*/
+ul {list-style: none;}
 ol {
   list-style: decimal inside; }
 ol, ul {
