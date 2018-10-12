@@ -29,7 +29,7 @@ h4{
 
 .logo {
 	width: 100%;
-	margin-top: 0;
+	margin-top: -5rem;
 	margin-left: -0.6%;
 }
 
@@ -80,7 +80,7 @@ header.main_nav{
 	padding: 0.1% 0;
 	margin-left: 0%;
 	margin-bottom: 1%;
-	margin-top: 8px;
+	margin-top: 2rem;
 	display: block;
 	text-align: center;
 	font-size: 1.45em;
@@ -137,9 +137,21 @@ img:hover{ opacity:0.8;}
 /* Contact Form
 ______________________________________*/
 #form-container{
-	margin-top: 24em;
-
+	top: 22em;
+	left: 13em;
 }
+
+#btn-container{
+		/*margin-right: 12px;*/
+	position: absolute;
+	left: 30em;
+	margin-top: -19%;
+}
+
+.btn-text{
+	text-align: center;
+}
+
 
 
 /* Footer
@@ -180,37 +192,20 @@ footer{
 }
 
 #footer-container{
-	position: absolute;
-	top: 65em;
-	margin-left: 4em;
+	position: relative;
+	top: 84rem;
+	margin-left: 10.6rem;
 }
 
 #footer-container2{
 	margin-top: 22em;
-	margin-left: -7em;
+	margin-left: -1em;
 }
-
-/* Button
-______________________________________*/
-#btn-container{
-		/*margin-right: 12px;*/
-	position: absolute;
-	left: 44em;
-	margin-top: 2%;
-
-}
-
-.btn-text{
-	text-align: center;
-
-}
-
-
 
 /* Services Section On Home Page
 ______________________________________*/
 .align-services{
-	margin-left: 16px;
+	margin: -10px;
 }
 .services{
 	margin-left: -15px;
@@ -222,24 +217,28 @@ ______________________________________*/
 .lists{
 	font-family: 'Roboto', sans-serif;
 	font-size: 28px;
+	margin-top: -5rem;
 
 }
 .leftlist{
-	position: relative;
-	left: -10.6em;
-	top: 2.6em;
+	position: absolute;
+  top: 400px;
+  left: -22.6%;
+  width: -webkit-fill-available;
 }
 .rightlist{
-	position: relative;
-	left: 26.15em;
-	top: 2.6em;
+	position: absolute;
+  width: -webkit-fill-available;
+  top: 400px;
+  left: 94.6%;
 }
 
 /*Home page below services section
 _____________________________________*/
 .main-display{
-	position: relative;
-	top: -22em;
+	position: absolute;
+	top: 44rem;
+	margin-top: -1rem;
 	margin-left: 8.5em;
 	width: 81%;
 }

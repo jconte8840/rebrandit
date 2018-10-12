@@ -185,14 +185,15 @@ input[type="reset"],
 
 input[type="button"] {
 	display: inline-block;
-	height: 48px;
-	width: 105px;
+	height: 58px;
+	width: 128px;
 	padding: 6px;
 	color: #555;
 	text-align: center;
-	font-size: 16px;
-	font-weight: 600;
-	line-height: 38px;
+  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 39px;
 	letter-spacing: .1rem;
 	text-transform: uppercase;
 	text-decoration: none;
