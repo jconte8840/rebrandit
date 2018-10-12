@@ -15,6 +15,7 @@ ______________________________________*/
 h4{
 	font-family: 'Roboto', sans-serif;
 	color: blue;
+	width: 133%
 }
 .services_l{
 	/*list-style-type: none;*/
@@ -28,7 +29,7 @@ h4{
 
 .logo {
 	width: 100%;
-	margin-top: 0;
+	margin-top: -5rem;
 	margin-left: -0.6%;
 }
 
@@ -54,11 +55,11 @@ a:link {
 }
 a:visited {
 	text-decoration: none;
-	color: white;
+	color: blue;
 }
 a:hover {
 	text-decoration: none;
-	color: white;
+	color: blue;
 }
 a:active {
 	text-decoration: none;
@@ -79,7 +80,7 @@ header.main_nav{
 	padding: 0.1% 0;
 	margin-left: 0%;
 	margin-bottom: 1%;
-	margin-top: 8px;
+	margin-top: 2rem;
 	display: block;
 	text-align: center;
 	font-size: 1.45em;
@@ -111,7 +112,15 @@ a.nav{
 
 /* Images & Media
 ______________________________________*/
-
+.home-img{
+	margin-bottom: 20px;
+}
+.home-img-l{
+	margin-right: -4px;
+}
+.home-img-r{
+	margin-left: 3%;
+}
 img{
 	width: 100%;
 	border-radius: 20px;
@@ -128,9 +137,21 @@ img:hover{ opacity:0.8;}
 /* Contact Form
 ______________________________________*/
 #form-container{
-	margin-top: 24em;
-
+	top: 22em;
+	left: 13em;
 }
+
+#btn-container{
+		/*margin-right: 12px;*/
+	position: absolute;
+	left: 30em;
+	margin-top: -19%;
+}
+
+.btn-text{
+	text-align: center;
+}
+
 
 
 /* Footer
@@ -171,54 +192,55 @@ footer{
 }
 
 #footer-container{
-margin-top: 18em
+	position: relative;
+	top: 84rem;
+	margin-left: 10.6rem;
 }
 
-/* Button
-______________________________________*/
-#btn-container{
-		/*margin-right: 12px;*/
-	position: absolute;
-	left: 27em;
-	margin-top: -7%;
-
+#footer-container2{
+	margin-top: 22em;
+	margin-left: -1em;
 }
-
-.btn-text{
-	text-align: center;
-
-}
-
-
 
 /* Services Section On Home Page
 ______________________________________*/
 .align-services{
-	margin-left: 16px;
+	margin: -10px;
 }
 .services{
 	margin-left: -15px;
 }
+.list-container{
+	/*border: blue solid 2px;*/
+	width: 32%!important;
+}
 .lists{
 	font-family: 'Roboto', sans-serif;
 	font-size: 28px;
+	margin-top: -5rem;
 
 }
 .leftlist{
-	position: relative;
-	/*left: 49px;*/
-	margin-left: 5%;
+	position: absolute;
+  top: 400px;
+  left: -22.6%;
+  width: -webkit-fill-available;
 }
 .rightlist{
-	position: relative;
-	left: 105px;
+	position: absolute;
+  width: -webkit-fill-available;
+  top: 400px;
+  left: 94.6%;
 }
 
 /*Home page below services section
 _____________________________________*/
 .main-display{
-	margin-left: 0em;
-	width: 96.8%;
+	position: absolute;
+	top: 44rem;
+	margin-top: -1rem;
+	margin-left: 8.5em;
+	width: 81%;
 }
 
 /*About Page Styles
