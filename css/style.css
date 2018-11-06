@@ -75,7 +75,7 @@ h2, p.footer{
 /* Header & Navigation
 ______________________________________*/
 
-header.main_nav{
+header#main-nav{
 	height: 40px;
 	padding: 0.1% 0;
 	margin-left: 0%;
@@ -110,6 +110,41 @@ a.nav{
 	/* top: -10px; */
 }
 
+@media screen and (max-width: 426px){
+	#main-nav{
+		display: none;
+	}
+	#logo-container{}
+	.logo{
+		
+			margin-top: 15%
+	  
+	}
+	
+	.navbar-toggle {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  cursor: pointer;
+  color: #000000;
+  font-size: 24px;
+}
+	.secondary-nav-list{
+	   list-style-type: none;
+    display: none;
+	}
+.secondary-nav-list li a{
+		text-decoration: none;
+	}
+	.secondary-nav-list li {
+	text-align: center;
+	margin: 15px auto;
+
+}
+.active {
+  display: block;
+}
+}
 /* Images & Media
 ______________________________________*/
 .home-img{
@@ -137,14 +172,13 @@ img:hover{ opacity:0.8;}
 /* Contact Form
 ______________________________________*/
 #form-container{
+	border: 2px solid red;
 	top: 22em;
 	left: 13em;
 }
 
 #btn-container{
-		/*margin-right: 12px;*/
-	position: absolute;
-	left: 30em;
+	position: sticky;
 	margin-top: -19%;
 }
 

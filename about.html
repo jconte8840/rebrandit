@@ -22,40 +22,63 @@
 	integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
 	crossorigin="anonymous">
 	<link rel="stylesheet" href="css/magnific-popup.css">
-
+ 
+																													
 <!-- Scripts
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
+ 
 <!-- Favicon
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </head>
 
 <body>
-	<header class="main_nav">
+	<header>
+		<div id="main-nav" >
 		<div class="container">
 			<div class="twelve columns">
 				<nav>
-					<a href="index.html" class="nav">Home</a>
-					<a href="about.html" style="color:blue;" class="nav">About</a>
-					<a href="contact.html" class="nav">Contact</a>
-					<a href="work.html" class="nav">Work</a>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html">Contact</a></li>
+							<li><a href="work.html">Work</a></li>
+    
+						</ul>
 				</nav>
 
 			</div>
 		</div>
-	</header>
+		</div> 
 
-	<div class="row">
+	
+<nav id="secondary-menu" >
+	
+ <span class="navbar-toggle" id="js-navbar-toggle">
+         
+         <i class="fas fa-bars"></i>
+</span>         
+
+
+  <ul class="secondary-nav-list" id="js-menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="work.html">Work</a></li>
+    
+  </ul>
+</nav> 
+		
+		<div class="row">
 		<div class="container">
 			<div class="twelve columns">
 				<a href="index.html" class="logo"><img src="images/logo.png" alt="Rebrandit Logo" class="logo"></a>
-				<p style="color: blue;text-align: center;font-size: 25px;font-family: 'Roboto', sans-serif;letter-spacing: 1px;">When It's Time to Change Your Image  </p>
+				<a href="index.html"><p style="color: blue;text-align: center;font-size: 25px;font-family: 'Roboto', sans-serif;letter-spacing: 1px;">When It's Time to Change Your Image  </p></a>
 			</div>
 		</div>
 	</div>
 
-	<div class="row">
+	<div id="logo-container" class="row">
 		<div class="container">
 			<div class="twelve columns">
 				<p style="text-align: center;font-size: 18px;letter-spacing: 1px;">Based in Fort Myers, FL ReBrandit, LLC is a petroleum industry service company providing complete imaging solutions in Florida & Georgia. We specialize in Marketing Upgrades, Rebranding, Canopy Repair, Lighting, Remodeling the exteriors of service stations, convenience stores & car washes.
@@ -63,7 +86,7 @@
 			</div>
 		</div>
 	</div>
-
+	</header>
 
 <div class="container main">
 <div class="row">
@@ -109,7 +132,7 @@
 			</div>
     <div class="four columns portfolio image-space">
         <img src="images/team/steve.jpg"/>
-        <h4>Steve Sites<br>On-Site Manager</br></h4>
+        <h4>Steve Sites<br>On Site Manager</br></h4>
 				<p class="about-text-small">
 				Steve has more than 20 years of experience in the petroleum industry service business.
 				</p>
@@ -154,6 +177,6 @@
 			</div>
 		</div>
 	</footer>
-
+<script src="scripts/hamburger.js"></script>
 </body>
 </html>

@@ -181,6 +181,12 @@ button,
 input[type="submit"],
 input[type="reset"],
 
+.hamburger{
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
 
 
 input[type="button"] {
@@ -364,7 +370,7 @@ td:last-child {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 button,
 .button {
-  margin-bottom: 1rem; }
+  margin-bottom: 85rem; }
 input,
 textarea,
 select,

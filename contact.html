@@ -14,6 +14,7 @@
 -–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
 <!-- CSS
 -–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<link rel="stylesheet" href="css/normalize.css">
@@ -23,10 +24,11 @@
 	integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
 	crossorigin="anonymous">
 	<link rel="stylesheet" href="css/magnific-popup.css">
-
+<link rel="stylesheet" href="css/hamburger.css">
 <!-- Scripts
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+				 <script src="scripts/hamburger.js"></script>
 
 <!-- Favicon
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -46,12 +48,27 @@
 			</div>
 		</div>
 	</header>
+<header>
+
+  <button class="hamburger">&#9776;</button>
+  <button class="cross">&#735;</button>
+</header>
+
+<div class="menu">
+  <ul>
+    <a href="index.html"><li>Home</li></a>
+    <a href="about.html"><li>About</li></a>
+    <a href="contact.html"><li>Contact</li></a>
+    <a href="work.html"><li>Work</li></a>
+
+  </ul>
+</div>
 
 	<div class="row">
 		<div class="container">
 			<div class="twelve columns">
 				<a href="index.html" class="logo"><img src="images/logo.png" alt="Rebrandit Logo" class="logo"></a>
-				<p style="color: blue;text-align: center;font-size: 25px;font-family: 'Roboto', sans-serif;letter-spacing: 1px;">When It's Time to Change Your Image  </p>
+				<p style="color: blue;text-align: center;font-size: 25px;font-family: 'Roboto', sans-serif;letter-spacing: 1px;"><a href="index.html">When It's Time to Change Your Image</p></a>
 			</div>
 		</div>
 	</div>
@@ -87,7 +104,7 @@
             </div>
 
             <div id="btn-container">
-              <input class="button-primary btn-text"  type="submit" value="Submit" style="align-content: center">
+              <input class="button-primary btn-text"  type="submit" value="Submit">
             </div>
             <!--</div>-->
           </div>
