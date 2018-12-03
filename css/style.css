@@ -17,16 +17,19 @@ h4{
 	color: blue;
 	width: 133%
 }
-.services_l{
-	/*list-style-type: none;*/
+/*.services_l{
+	
 	text-align: left;
 }
 
 .services_r{
-	/*list-style-type: none;*/
+	
 	text-align: left;
 }
-
+*/
+.list-text-align-left{
+	text-align: left;
+}
 .logo {
 	width: 100%;
 	margin-top: -5rem;
@@ -250,11 +253,11 @@ ______________________________________*/
 }
 .lists{
 	font-family: 'Roboto', sans-serif;
-	font-size: 28px;
+	font-size: 1.5em;
 	margin-top: -5rem;
 
 }
-.leftlist{
+/*.leftlist{
 	position: absolute;
   top: 400px;
   left: -22.6%;
@@ -266,7 +269,7 @@ ______________________________________*/
   top: 400px;
   left: 94.6%;
 }
-
+*/
 /*Home page below services section
 _____________________________________*/
 .main-display{
